@@ -2713,7 +2713,8 @@ var data =
   }
 }
 
-///// data end      var api = data.result.records;
+///// data end      
+      var api = data.result.records;
       var str = [];
       var area = document.getElementById('mySelect');
       var list = document.querySelector('.main');
