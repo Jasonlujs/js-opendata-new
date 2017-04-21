@@ -1,6 +1,7 @@
 $(function () {
   $.getJSON('all.json', function (data) {
-    var api = data.result.records;
+    thisData = JSON.parse(data)
+    var api = thisData.result.records;
     var str = [];
     var area = document.getElementById('mySelect');
     var list = document.querySelector('.main');
